@@ -11,18 +11,22 @@
         android:background="@color/orange">
 
         <TextView
+            android:id="@+id/idTVHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Add Items to Cart"
-            android:textAllCaps="false"
-            android:textAlignment="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/orange"
             android:gravity="center"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="20sp"
             android:padding="4dp"
-            android:layout_margin="4dp"
-            android:id="@+id/idTVHeading"/>
+            android:text="Add Items to Cart"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -37,16 +41,18 @@
                 android:layout_margin="5dp"
                 android:hint="Enter Item Name"
                 android:padding="5dp"
-                android:textColorHint="@color/white"
-                app:hintTextColor="@color/white">
+                android:background="@color/white"
+                android:textColorHint="@color/orange"
+                app:textColor="@color/orange">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/idEditItemName"
                     android:inputType="text"
-                    android:textColorHint="@color/white"
-                    android:textColor="@color/white"
+                    android:background="@color/white"
+                    android:textColorHint="@color/orange"
+                    android:textColor="@color/orange"
                     android:textSize="14sp"/>
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -58,8 +64,8 @@
                 android:layout_margin="5dp"
                 android:hint="Enter Item Quantity"
                 android:padding="5dp"
-                android:textColorHint="@color/black"
-                app:hintTextColor="@color/orange"
+                android:textColorHint="@color/orange"
+                app:textColor="@color/orange"
                 android:background="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -69,7 +75,7 @@
                     android:inputType="number"
                     android:background="@color/white"
                     android:textColor="@color/orange"
-                    android:textColorHint="@color/black"
+                    android:textColorHint="@color/orange"
                     android:textSize="14sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -82,7 +88,7 @@
                 android:hint="Enter Item price"
                 android:padding="5dp"
                 android:textColor="@color/orange"
-                android:textColorHint="@color/black"
+                android:textColorHint="@color/orange"
                 android:background="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -90,8 +96,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
+                    android:background="@color/white"
                     android:textColor="@color/orange"
-                    android:textColorHint="@color/white"
+                    android:textColorHint="@color/orange"
                     android:textSize="14sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
