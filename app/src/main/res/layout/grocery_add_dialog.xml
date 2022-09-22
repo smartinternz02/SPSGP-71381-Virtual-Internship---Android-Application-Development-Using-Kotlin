@@ -46,14 +46,14 @@
                 app:textColor="@color/orange">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idEditItemName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/idEditItemName"
-                    android:inputType="text"
                     android:background="@color/white"
-                    android:textColorHint="@color/orange"
+                    android:inputType="text"
                     android:textColor="@color/orange"
-                    android:textSize="14sp"/>
+                    android:textColorHint="#DD2C00"
+                    android:textSize="14sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -72,10 +72,10 @@
                     android:id="@+id/idEdtItemQuantity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:background="@color/white"
+                    android:inputType="number"
                     android:textColor="@color/orange"
-                    android:textColorHint="@color/orange"
+                    android:textColorHint="#DD2C00"
                     android:textSize="14sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -95,10 +95,10 @@
                     android:id="@+id/idEdtItemPrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
                     android:background="@color/white"
+                    android:inputType="number"
                     android:textColor="@color/orange"
-                    android:textColorHint="@color/orange"
+                    android:textColorHint="#DD2C00"
                     android:textSize="14sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
