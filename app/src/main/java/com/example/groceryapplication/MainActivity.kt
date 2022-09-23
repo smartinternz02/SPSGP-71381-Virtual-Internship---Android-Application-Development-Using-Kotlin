@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity(), GroceryRVAdapter.GroceryItemClickInter
         dialog.setContentView(R.layout.grocery_add_dialog)
         val cancelBtn = dialog.findViewById<Button>(R.id.idBtnCancel)
         val addBtn = dialog.findViewById<Button>(R.id.idBtnAdd)
-        val itemEdt = dialog.findViewById<EditText>(R.id.idEdtItemName)
+        val itemEdt = dialog.findViewById<EditText>(R.id.idEditItemName)
         val itemPriceEdt = dialog.findViewById<EditText>(R.id.idEdtItemPrice)
         val itemQuantityEdt = dialog.findViewById<EditText>(R.id.idEdtItemQuantity)
         cancelBtn.setOnClickListener {
